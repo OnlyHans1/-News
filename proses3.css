@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(blue\ hour\,\ my_art_bytes\(me\)\,\ pixel\ art\,\ 2021.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrap {
+    width: 960px;
+    height: 650px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    padding: 30px 40px;
+    color: white;
+}
+.wrap .judul {
+    text-align: center;
+    font-size: 6vh;
+}
